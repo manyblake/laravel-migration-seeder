@@ -21,6 +21,24 @@ class TrainSeeder extends Seeder
                 'orario_di_arrivo' => '16:25',
                 'codice_treno' => rand(10000, 32768),
                 'numero_carrozze' => rand(7, 10),
+            ],
+            [
+                'azienda' => 'Trenitalia',
+                'stazione_di_partenza' => 'Milano Centrale',
+                'stazione_di_arrivo' => 'Firenze S. M. Novella',
+                'orario_di_partenza' => '14:10',
+                'orario_di_arrivo' => '16:04',
+                'codice_treno' => rand(10000, 32768),
+                'numero_carrozze' => rand(7, 10),
+            ],
+            [
+                'azienda' => 'Italo',
+                'stazione_di_partenza' => 'Milano Centrale',
+                'stazione_di_arrivo' => 'Roma Termini',
+                'orario_di_partenza' => '14:30',
+                'orario_di_arrivo' => '17:40',
+                'codice_treno' => rand(10000, 32768),
+                'numero_carrozze' => rand(7, 10),
             ]
         ];
 
